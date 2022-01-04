@@ -4,7 +4,7 @@
             "outputFile": "/Users/salaheddinalhennawi/AndroidProjects/CurrencyConverter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/939fcea042a7fbc3dd24ad2c1e9fe77d/transformed/appcompat-1.4.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/d8b66ecc54712ba42f6840a37e62e266/transformed/appcompat-1.4.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

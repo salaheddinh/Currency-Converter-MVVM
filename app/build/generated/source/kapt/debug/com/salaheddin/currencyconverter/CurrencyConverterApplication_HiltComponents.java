@@ -1,6 +1,9 @@
 package com.salaheddin.currencyconverter;
 
 import androidx.hilt.lifecycle.ViewModelFactoryModules;
+import com.salaheddin.currencyconverter.di.AppModule;
+import com.salaheddin.currencyconverter.ui.main.MainActivity_GeneratedInjector;
+import com.salaheddin.currencyconverter.ui.main.MainViewModel_HiltModule;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -111,7 +114,8 @@ public final class CurrencyConverterApplication_HiltComponents {
       }
   )
   @ActivityScoped
-  public abstract static class ActivityC implements ActivityComponent,
+  public abstract static class ActivityC implements MainActivity_GeneratedInjector,
+      ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,
       ViewComponentManager.ViewComponentBuilderEntryPoint,
@@ -122,7 +126,10 @@ public final class CurrencyConverterApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = ActivityCBuilderModule.class
+      modules = {
+          ActivityCBuilderModule.class,
+          MainViewModel_HiltModule.class
+      }
   )
   @ActivityRetainedScoped
   public abstract static class ActivityRetainedC implements ActivityRetainedComponent,
@@ -135,6 +142,7 @@ public final class CurrencyConverterApplication_HiltComponents {
 
   @Component(
       modules = {
+          AppModule.class,
           ApplicationContextModule.class,
           ActivityRetainedCBuilderModule.class,
           ServiceCBuilderModule.class

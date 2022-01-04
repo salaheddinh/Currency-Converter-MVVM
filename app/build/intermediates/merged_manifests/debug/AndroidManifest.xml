@@ -8,6 +8,7 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="31" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -24,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.CurrencyConverter" >
         <activity
-            android:name="com.salaheddin.currencyconverter.MainActivity"
+            android:name="com.salaheddin.currencyconverter.ui.main.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,7 +4,7 @@
             "outputFile": "/Users/salaheddinalhennawi/AndroidProjects/CurrencyConverter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/d73549f8b1675489ef60ff390d6c143e/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/fffe5c06bccd3fcdc4157bdc8feb2b2f/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -4,7 +4,7 @@
             "outputFile": "/Users/salaheddinalhennawi/AndroidProjects/CurrencyConverter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/d73549f8b1675489ef60ff390d6c143e/transformed/material-1.4.0/res/values-land/values-land.xml",
+                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/fffe5c06bccd3fcdc4157bdc8feb2b2f/transformed/material-1.4.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/939fcea042a7fbc3dd24ad2c1e9fe77d/transformed/appcompat-1.4.0/res/values-land/values-land.xml",
+                    "source": "/Users/salaheddinalhennawi/.gradle/caches/transforms-3/d8b66ecc54712ba42f6840a37e62e266/transformed/appcompat-1.4.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
